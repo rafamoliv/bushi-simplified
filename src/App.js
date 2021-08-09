@@ -3,11 +3,12 @@ import { store } from "./store/index";
 import { Provider } from "react-redux";
 
 import "./assets/globalStyles.scss";
+import Routes from "./routes/routes";
 
 function App() {
   return (
     <Provider store={store}>
-      <h1>Hi everyone from CyberLabs</h1>
+      <Routes />
     </Provider>
   );
 }
