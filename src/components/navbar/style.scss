@@ -1,0 +1,25 @@
+// navbar container
+.content {
+  background: #f3f3f3;
+  width: 100%;
+  height: 77px;
+}
+
+// logo style
+.logo {
+  // logo size
+  height: 41px;
+  width: 163px;
+
+  // centralizing logo
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  // prefixs
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
