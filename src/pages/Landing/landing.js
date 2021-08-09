@@ -1,9 +1,10 @@
 import React from "react";
+import Navbar from "~/components/navbar";
 
 function Landing() {
   return (
     <div>
-      <h1>teste</h1>
+      <Navbar />
     </div>
   );
 }
