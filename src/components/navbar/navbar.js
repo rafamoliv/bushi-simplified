@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // import styles and assets
 import "./style.scss";
@@ -8,9 +9,9 @@ import logo from "~/assets/images/logo.svg";
 function Navbar() {
   return (
     <div className="contentNavbar">
-      <a href="#">
+      <Link to="/">
         <img className="logo" src={logo} alt="Bushi Legacy" aria-label="Bushi Legacy Logo" />
-      </a>
+      </Link>
     </div>
   );
 }
