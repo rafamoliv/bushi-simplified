@@ -8,7 +8,9 @@ import logo from "~/assets/images/logo.svg";
 function Navbar() {
   return (
     <div className="contentNavbar">
-      <img className="logo" src={logo} alt="Bushi Legacy" />
+      <a href="#">
+        <img className="logo" src={logo} alt="Bushi Legacy" aria-label="Bushi Legacy Logo" />
+      </a>
     </div>
   );
 }
