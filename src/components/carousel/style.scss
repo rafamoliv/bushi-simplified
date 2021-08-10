@@ -1,0 +1,50 @@
+// carousel container
+.contentCarousel {
+  // display
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  // background linear
+  //mask-image: linear-gradient(to bottom, transparent 25%, #ff0000 100%);
+
+  //background size
+  height: 610px;
+  width: 100%;
+
+  //background
+  background-image: url(../../assets/images/carousel.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+// logo Bushi
+.logoBanner {
+  width: 286px;
+  height: 72px;
+}
+
+// banner text
+.bannerCaption {
+  // font config
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+
+  // font style
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+
+  // margins
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+// set the icon position
+.iconPosition {
+  position: absolute;
+  bottom: 15%;
+}

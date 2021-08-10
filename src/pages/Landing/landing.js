@@ -1,10 +1,12 @@
 import React from "react";
+import Carousel from "~/components/carousel";
 import Navbar from "~/components/navbar";
 
 function Landing() {
   return (
-    <div>
+    <div className="containerLanding">
       <Navbar />
+      <Carousel />
     </div>
   );
 }

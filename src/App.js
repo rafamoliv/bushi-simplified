@@ -2,6 +2,7 @@ import React from "react";
 import { store } from "./store/index";
 import { Provider } from "react-redux";
 
+import "~/assets/fontawesome";
 import "./assets/globalStyles.scss";
 import Routes from "./routes/routes";
 
