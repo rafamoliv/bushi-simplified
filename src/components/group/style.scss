@@ -1,0 +1,63 @@
+// group container
+.contentGroup {
+  max-width: 1200px;
+  height: 494px;
+  margin: 125px auto;
+
+  //font style
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+// group title
+.groupCaption {
+  // font configs
+  font-size: 31px;
+  font-weight: bold;
+
+  //font style
+  text-transform: uppercase;
+
+  //margin
+  margin-bottom: 125px;
+}
+
+// groups
+.gridLayout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+// label groups
+.groupLabel {
+  // label size
+  width: 300px;
+  height: 300px;
+
+  // margins
+  margin: auto;
+
+  //label display
+  display: flex;
+  flex-direction: column;
+
+  // span font configs
+  span {
+    font-size: 24px;
+  }
+
+  // centralize icon
+  svg {
+    margin: 0 auto 25px auto;
+  }
+}
+
+// title label
+.titleLabel {
+  font-weight: bold;
+}
+
+// text label
+.textLabel {
+  font-weight: 400;
+}
