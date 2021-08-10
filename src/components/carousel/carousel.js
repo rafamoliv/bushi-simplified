@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Carousel() {
   return (
     <div className="contentCarousel">
-      <img className="logoBanner" src={logo} alt="Logo Bushi" />
+      <img className="logoBanner" src={logo} alt="Logo Bushi" aria-label="Character of an anime holding his sword" />
       <p className="bannerCaption">
         monitore os seus animes
         <br />
@@ -19,7 +19,7 @@ function Carousel() {
       </p>
 
       {/* I couldn't use arrow-down-longer 'cause it was a pro icon with no access :( */}
-      <FontAwesomeIcon icon="arrow-down" style={{ color: "#FED500" }} size="2x" className="iconPosition" />
+      <FontAwesomeIcon icon="arrow-down" style={{ color: "#FED500" }} size="2x" className="iconPosition" aria-label="Arrow pointing down" />
     </div>
   );
 }
