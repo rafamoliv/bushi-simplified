@@ -7,7 +7,7 @@ import imageExample from "~/assets/images/imageExample.png";
 
 function Table() {
   return (
-    <div className="tableContent">
+    <div className="tableContent" id="animeSection">
       <div className="tableTitle">
         <FontAwesomeIcon icon="infinity" style={{ color: "FE9800" }} size="2x" aria-label="Infinity image" />
         <p>Veja Animes</p>
