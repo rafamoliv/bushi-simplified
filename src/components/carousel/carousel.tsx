@@ -20,7 +20,7 @@ function Carousel() {
 
       <a href="#animeSection">
         {/* I couldn't use arrow-down-longer 'cause it was a pro icon with no access :( */}
-        <FontAwesomeIcon icon="arrow-down" style={{ color: "#FED500" }} size="2x" className="iconPosition" aria-label="Arrow pointing down" />
+        <FontAwesomeIcon icon="arrow-down" style={{ color: "#FED500" }} size="2x" aria-label="Arrow pointing down" />
       </a>
     </div>
   );
