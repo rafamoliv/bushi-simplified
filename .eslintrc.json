@@ -1,9 +1,13 @@
 {
     "settings": {
-    "import/resolver": {
-      "babel-plugin-root-import": {
-        "rootPathSuffix": "src"
+      "import/resolver": {
+        "typescript": {},
+        "babel-plugin-root-import": {
+          "rootPathPrefix": "~",
+          "rootPathSuffix": "src"
+        }
       }
-    }
-  }
+  },
+
+  "plugins": ["react", "react-hooks"]
 }

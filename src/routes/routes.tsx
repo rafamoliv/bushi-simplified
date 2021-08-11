@@ -4,7 +4,7 @@ import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 
 // import pages
-import Landing from "../pages/Landing";
+import Landing from "~/pages/Landing";
 import Anime from "~/pages/Anime";
 
 // routes
