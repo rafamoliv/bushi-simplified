@@ -8,7 +8,7 @@ export const GetAnimesList = (item) => async (dispatch) => {
   try {
     dispatch(ActionCreators.animesListLoading());
 
-    const { data } = await api.get(`anime`);
+    const { data } = await api.get(`?page[limit]=10&page[offset]=0`);
 
     dispatch(ActionCreators.animesListSuccess(data));
   } catch (error) {

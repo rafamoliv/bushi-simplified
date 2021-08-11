@@ -1,7 +1,7 @@
 // import my action types
 import { ActionTypes } from "../helpers/helpers";
 
-// def my initial state
+// set my initial state
 const initialState = {
   animes: [],
   loading: false,
