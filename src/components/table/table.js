@@ -11,7 +11,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { GetAnimesList } from "~/store/actions/actions";
 import { Link } from "react-router-dom";
 
-function Table({ data }) {
+function Table() {
   const dispatch = useDispatch();
   const animes = useSelector((state) => state.animesListReducer.animes);
 
