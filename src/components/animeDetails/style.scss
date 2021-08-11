@@ -48,3 +48,13 @@ p {
     text-align: center;
   }
 }
+
+.animeOtherInformationDetail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+
+  span {
+    padding: 25px;
+  }
+}

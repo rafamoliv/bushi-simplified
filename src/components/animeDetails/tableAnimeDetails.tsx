@@ -21,11 +21,14 @@ function TableAnimeDetails({ title, synopsis, poster, rating, popularity, ageRat
         </div>
         <div className="animeOtherInformation">
           <p>Outras informações da API</p>
-          <span>Nota do anime: {rating}</span>
-          <span>Popularidade: {popularity}</span>
-          <span>Classificação etária: {ageRatingGuide}</span>
-          <span>Show: {showType}</span>
-          <span>Quantidade de episódios: {episodeCount}</span>
+          
+          <div className="animeOtherInformationDetail">
+            <span>IMDB Rating: {rating}</span>
+            <span>Popularidade: {popularity}º</span>
+            <span>Show: {showType}</span>
+            <span>Quantidade de episódios: {episodeCount}</span>
+            <span>Classificação etária: {ageRatingGuide}</span>
+          </div>
         </div>
       </div>
   );
