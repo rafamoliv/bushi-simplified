@@ -15,6 +15,9 @@ function Anime({ location }: any) {
 
   const animeState = location.state.animeDetails;
 
+  // set scroll to position 0, fix bug openning others information
+  window.scrollTo(0, 0);
+
   return (
     <div className="animeContent">
       <Navbar />

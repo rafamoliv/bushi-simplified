@@ -8,6 +8,9 @@ import Table from "~/components/table";
 import "./style.scss";
 
 function Landing() {
+  // set scroll to position 0, fix bug openning others scrolls positions
+  window.scrollTo(0, 0);
+
   return (
     <div className="containerLanding">
       <Navbar />
