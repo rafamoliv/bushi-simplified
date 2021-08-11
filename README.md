@@ -2,7 +2,7 @@
 
 ## Project: _Bushi Legacy_
 
-### Project requirements: Creating an anime site
+### Project requirements: Creating an anime website
 
 1.  - Create the React project
     - Replicate the layout made available in Figma
