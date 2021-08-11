@@ -58,3 +58,81 @@ p {
     padding: 25px;
   }
 }
+
+// responsiveness
+@media (max-width: 1024px) {
+  // section details
+  .animeSectionDetails {
+    max-width: 80%;
+  }
+
+  // geral paragraph configs
+  p {
+    font-size: 30px;
+  }
+
+  .animeSectionDetails {
+    span {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  // anime header layout
+  .animeHeader {
+    flex-direction: column;
+  }
+
+  .animeSectionDetails {
+    // paragraph anime name
+    p {
+      &:first-child {
+        margin-bottom: 35px;
+      }
+    }
+
+    span {
+      font-size: 16px;
+    }
+  }
+
+  // other information
+  .animeOtherInformation {
+    height: 100%;
+    background-color: #f5f5f5;
+    margin: 100px 0 100px 0;
+
+    // paragraph other information
+    p {
+      font-size: 30px;
+    }
+  }
+
+  // anime poster
+  .animeImageDiv {
+    margin: 0px auto 50px auto;
+    width: auto;
+    height: 100%;
+
+    img {
+      width: 70vw;
+    }
+  }
+
+  // margin last span
+  .animeOtherInformationDetail {
+    span {
+      &:last-child {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  // others information margin
+  .animeOtherInformationDetail {
+    margin-left: 7%;
+  }
+}

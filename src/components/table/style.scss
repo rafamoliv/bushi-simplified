@@ -45,17 +45,20 @@
   -moz-box-shadow: 0px 3px 3px 0px rgba(88, 88, 88, 0.79);
 }
 
+// anime card items display size
 .animeBoard {
   display: grid;
   grid-template-columns: 6fr 5fr 1fr;
 }
 
+// anime cards
 .animeGrid {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+// image card
 .imageCard {
   width: 246px;
   height: 103px;
@@ -84,4 +87,53 @@
 
 .animeDetails {
   color: #494949;
+}
+
+// Responsiveness
+@media (max-width: 768px) {
+  // remove episodies and stars
+  .animeGrid {
+    &:nth-child(2) {
+      display: none;
+    }
+  }
+
+  // table content
+  .tableContent {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  // anime card items display size
+  .animeBoard {
+    grid-template-columns: 10fr 2fr;
+  }
+
+  // card size
+  .tableCard {
+    height: 98px;
+  }
+
+  // name size
+  .animeName {
+    font-size: 13px;
+    font-weight: bold;
+    max-width: 250px;
+  }
+
+  // image anime size
+  .imageCard {
+    width: 136px;
+    height: 60px;
+    margin: 0 25px 0 -46px;
+  }
+}
+
+@media (max-width: 425px) {
+  // name size
+  .animeName {
+    max-width: 200px;
+  }
 }

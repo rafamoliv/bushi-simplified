@@ -60,3 +60,32 @@
 .textLabel {
   font-weight: 400;
 }
+
+@media (max-width: 768px) {
+  // content group
+  .contentGroup {
+    height: 100%;
+  }
+
+  // groups
+  .gridLayout {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  // label group
+  .groupLabel {
+    width: 90%;
+    height: 100%;
+
+    // fire label
+    &:nth-child(1) {
+      flex-direction: row;
+    }
+
+    // infinity label
+    &:nth-child(2) {
+      flex-direction: row-reverse;
+      margin: 50px auto 50px auto;
+    }
+  }
+}

@@ -7,7 +7,7 @@ function TableAnimeDetails({ title, synopsis, poster, rating, popularity, ageRat
       <div className="animeSectionDetails">
         <div className="animeHeader">
           <div className="animeImageDiv">
-            <img src={poster} />
+            <img src={poster} aria-label="Anime poster" />
           </div>
 
           <div className="animeInformation">
