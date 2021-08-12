@@ -18,6 +18,7 @@ const Table = ({fetchAnimesData, animes}: AnimeCardProps) => {
     fetchAnimesData(`?page[limit]=10&page[offset]=1`);
   }, [])
 
+  // stars coountig base data.attributes.averageRating
   function stars(rating: number) {
     if (rating <= 25) return "⋆";
     if (rating > 25 && rating <= 50) return "⋆⋆";
@@ -28,6 +29,7 @@ const Table = ({fetchAnimesData, animes}: AnimeCardProps) => {
     return "";
   }
 
+  // anime tables 
   return (
     <div className="tableContent" id="animeSection">
       <div className="tableTitle">
@@ -35,6 +37,7 @@ const Table = ({fetchAnimesData, animes}: AnimeCardProps) => {
         <p>Veja Animes</p>
       </div>
 
+      {/* map my table*/}
       {animes.map((data: any) => {
           return (
             <Link key={data.id} to={{ 

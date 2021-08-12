@@ -1,3 +1,4 @@
+// babel-plugin-root-imports confis
 {
     "settings": {
       "import/resolver": {
@@ -9,5 +10,6 @@
       }
   },
 
+  // fix bug React Hook
   "plugins": ["react", "react-hooks"]
 }

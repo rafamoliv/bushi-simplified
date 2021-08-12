@@ -1,3 +1,4 @@
+// anime details props -- components - animeDetails
 export type animeDetailsProps = {
     title: string,
     synopsis: string,
