@@ -6,7 +6,7 @@ import "./style.scss";
 import logo from "~/assets/images/logo.svg";
 
 // only shows Bushi logo
-function Navbar() {
+export default function Navbar() {
   return (
     <div className="contentNavbar">
       <Link to="/">
@@ -15,5 +15,3 @@ function Navbar() {
     </div>
   );
 }
-
-export default Navbar;

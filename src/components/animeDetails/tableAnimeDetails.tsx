@@ -2,7 +2,7 @@ import "./style.scss";
 import { animeDetailsProps } from '~/types/animeDetails'
 
 // anime details
-function TableAnimeDetails({ title, synopsis, poster, rating, popularity, ageRatingGuide, showType, episodeCount }: animeDetailsProps) {
+export default function TableAnimeDetails({ title, synopsis, poster, rating, popularity, ageRatingGuide, showType, episodeCount }: animeDetailsProps) {
   return (
       <div className="animeSectionDetails">
         <div className="animeHeader">
@@ -33,5 +33,3 @@ function TableAnimeDetails({ title, synopsis, poster, rating, popularity, ageRat
       </div>
   );
 }
-
-export default TableAnimeDetails;

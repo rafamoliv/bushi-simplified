@@ -6,7 +6,7 @@ import logo from "~/assets/images/logoWhite.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // main banner and introduction of the site
-function Carousel() {
+export default function Carousel() {
   return (
     <div className="contentCarousel">
       <img className="logoBanner" src={logo} alt="Logo Bushi" aria-label="Character of an anime holding his sword" />
@@ -25,5 +25,3 @@ function Carousel() {
     </div>
   );
 }
-
-export default Carousel;

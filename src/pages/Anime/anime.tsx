@@ -9,7 +9,7 @@ import TableAnimeDetails from "~/components/animeDetails";
 import { useHistory } from 'react-router-dom'
 
 // anime details page
-function Anime({ location }: any) {
+export default function Anime({ location }: any) {
   const history = useHistory()
   if(!location.state) history.push('/')
 
@@ -35,5 +35,3 @@ function Anime({ location }: any) {
     </div>
   );
 }
-
-export default Anime;

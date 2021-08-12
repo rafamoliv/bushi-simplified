@@ -5,7 +5,7 @@ import "./style.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // group with three concepts
-function Group() {
+export default function Group() {
   return (
     <div className="contentGroup">
       <p className="groupCaption">O que fazer por aqui?</p>
@@ -39,5 +39,3 @@ function Group() {
     </div>
   );
 }
-
-export default Group;

@@ -7,7 +7,7 @@ import Table from "~/components/table";
 
 import "./style.scss";
 
-function Landing() {
+export default function Landing() {
   // set scroll to position 0, fix bug openning others scrolls positions
   window.scrollTo(0, 0);
 
@@ -23,5 +23,3 @@ function Landing() {
     </div>
   );
 }
-
-export default Landing;
