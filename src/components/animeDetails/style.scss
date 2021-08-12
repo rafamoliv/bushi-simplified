@@ -136,3 +136,12 @@ p {
     margin-left: 7%;
   }
 }
+
+@media (max-width: 425px) {
+  .animeOtherInformation {
+    // paragraph other information
+    p {
+      padding: 50px;
+    }
+  }
+}

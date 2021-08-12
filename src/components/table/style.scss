@@ -103,6 +103,12 @@
     max-width: 90%;
     margin: auto;
   }
+
+  // name size
+  .animeName {
+    font-size: 18px;
+    max-width: 250px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -120,7 +126,7 @@
   .animeName {
     font-size: 13px;
     font-weight: bold;
-    max-width: 250px;
+    max-width: 235px;
   }
 
   // image anime size
