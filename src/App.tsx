@@ -3,8 +3,8 @@ import { store } from '~/store';
 import { Provider } from 'react-redux';
 
 import Routes from '~/routes'
-import '~/assets/fontawesome'
-import '~/assets/globalStyles.scss'
+import '~/assets/fonts/fontawesome'
+import '~/assets/styles/globalStyles.scss'
 
 export default function App() {
   return (
