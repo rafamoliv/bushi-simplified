@@ -28,3 +28,20 @@
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
 }
+
+.progressMainWrapper,
+.progressMainStyle {
+  height: 4px;
+}
+
+.progressMainWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  width: 100%;
+}
+
+.progressMainStyle {
+  background-color: #000;
+}
